@@ -1,0 +1,85 @@
+.navbar-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #693f86;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    overflow-y: auto;
+    transition: width 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-lateral:hover {
+    width: 350px;
+}
+
+.navbar-lateral ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-lateral li {
+    margin: 10px 0;
+}
+
+.navbar-lateral a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-lateral a:hover {
+    background-color: #9166A1;
+    color: #fff;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #9166A1;
+    max-width: 250px;
+    height: auto;
+}
+
+.container {
+    margin-left: 350px; /* Acomodando a largura aumentada da barra lateral */
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: margin-left 0.3s; /* Adicionando uma transição suave para o deslocamento lateral */
+}
+
+.fundo {
+    background-image: url('./fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #9166A1;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000;
+}
+
+li {
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
